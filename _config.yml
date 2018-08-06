@@ -1,0 +1,26 @@
+title: 高天宇的日常随笔
+description: > # this means to ignore newlines until "baseurl:"
+  jekyll主题博客_开发日常随笔
+permalink: ':title/' #生成文章的链接默认路径
+baseurl: "/jekyll" # 根目录
+url: "" # 网站的主机名和协议 用于重定向？
+site-twitter: #if your site has a twitter account, enter it here
+
+# 作者设置
+author: 高天宇 # add your name
+author-img: avatar.jpg # add your photo
+about-author: 前端开发 # add description
+social-github: gty19950420 # add your Github handle
+social-email: 2213132324@qq.com# add your Email address
+
+# Build Settings
+markdown: kramdown
+plugins:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jemoji
+
+paginate: 8
+paginate_path: "/page/:num"
+
+exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
